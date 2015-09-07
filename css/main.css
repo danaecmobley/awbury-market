@@ -1,7 +1,4 @@
-.navbar navbar-default,{
-	display: inline-block;
-}
-
+/* Custom Gongo font */
 @font-face {
     font-family: gongobold;
     src: url('../fonts/gongo_bold-webfont.eot');
@@ -13,6 +10,7 @@
     font-style: normal;
 }
 
+/* Navigation Bar */
 .navbar-collapse{
 	border: 1px red solid;
 }
@@ -23,6 +21,10 @@
 	color: #000000;
 }
 
+#right-nav {
+	float: center;
+}
+
 #sign-up-btn{
 	background-color:#FF9D03;
 	width: 90px;
@@ -31,6 +33,14 @@
 	text-align: center;
 }
 
+#bs-example-navbar-collapse-1, #right-nav{
+	font-family: gongobold, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+/* Main Page CSS */
 #main-page{
 	display: inline-block;
 }
