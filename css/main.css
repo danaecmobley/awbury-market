@@ -1,0 +1,73 @@
+.navbar navbar-default,{
+	display: inline-block;
+}
+
+@font-face {
+    font-family: gongobold;
+    src: url('../fonts/gongo_bold-webfont.eot');
+    src: url('../fonts/gongo_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gongo_bold-webfont.woff') format('woff'),
+         url('../fonts/gongo_bold-webfont.ttf') format('truetype'),
+         url('../fonts/gongo_bold-webfont.svg#gongobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-collapse{
+	border: 1px red solid;
+}
+
+#logo-font{
+	font-family: gongobold,sans-serif;
+	font-size:30px;
+	color: #000000;
+}
+
+#sign-up-btn{
+	background-color:#FF9D03;
+	width: 90px;
+	height:50px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+#main-page{
+	display: inline-block;
+}
+
+.jumbotron {
+  height:700px;
+  background-image: url(../images/raw-meat_139.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 750px;
+  padding-right: 200px;
+}
+
+.jumbotron h1{
+	font-family: gongobold,sans-serif;
+	font-size:350px;
+	opacity: 0.4;
+	color: #FFFFFF;
+	line-height: 250px;
+}
+
+.jumbotron h2{
+	font-family: gongobold,sans-serif;
+	font-size:60px;
+	color: #FFFFFF;
+	line-height: 80px;
+}
+
+.jumbotron p{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.about{
+	height:800px;
+	background-color:#E3E3D7;
+}
+
+
